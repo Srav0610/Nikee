@@ -20,4 +20,10 @@ public class RegistationServiceImpl implements RegistrationService{
 		return rr.saveAndFlush(register);
 	}
 
+	@Override
+	public Registration findById(String UserName) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }
