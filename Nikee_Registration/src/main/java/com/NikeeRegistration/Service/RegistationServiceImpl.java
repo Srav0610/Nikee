@@ -26,7 +26,7 @@ public class RegistationServiceImpl implements RegistrationService{
 	public Registration findById(String UserName) {
 		// TODO Auto-generated method stub
 		Registration r= rr.findById(UserName).orElseThrow();
-		return r;
+	      	return r;
 	}
 
 	@Override
