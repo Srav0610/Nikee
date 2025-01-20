@@ -56,6 +56,21 @@ public class Registration {
 	public void setRole(String role) {
 		this.role = role;
 	}
+	public Registration(String userName, String password, String fristName, String lastName, String gender, Integer age,
+			String role) {
+		super();
+		UserName = userName;
+		Password = password;
+		this.fristName = fristName;
+		this.lastName = lastName;
+		this.gender = gender;
+		this.age = age;
+		this.role = role;
+	}
+	public Registration() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
 	
 	
 	
